@@ -1,7 +1,7 @@
 /*!
 Theme Name: my-first-theme
 Theme URI: http://underscores.me/
-Author: Underscores.me
+Author: Mariam Simonyan
 Author URI: http://underscores.me/
 Description: Description
 Version: 1.0.0
@@ -93,8 +93,9 @@ main {
  * `article` contexts in Chrome, Firefox, and Safari.
  */
 h1 {
-	font-size: 2em;
+	font-size: 5em;
 	margin: 0.67em 0;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 /* Grouping content
@@ -694,7 +695,9 @@ textarea {
 
 .main-navigation a {
 	display: block;
-	text-decoration: none;
+	text-decoration: underline;
+	font-size: larger;
+	padding: 20px;
 }
 
 /* Small menu. */
