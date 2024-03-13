@@ -22,7 +22,7 @@
 			<span class="sep"> | </span>
 				<?php
 				/* translators: 1: Theme name, 2: Theme author. */
-				printf( esc_html__( 'Theme: %1$s by %2$s.', 'my-first-theme' ), 'my-first-theme', '<a href="http://underscores.me/">Underscores.me</a>' );
+				printf( esc_html__( 'Theme: %1$s by %2$s.', 'my-first-theme' ), 'my-first-theme', '<a href="http://underscores.me/">Underscores.me</a>. Mattias har varit innne och förstört i footern' );
 				?>
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
