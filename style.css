@@ -96,6 +96,7 @@ h1 {
 	font-size: 5em;
 	margin: 0.67em 0;
 	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	color: blue;
 }
 
 /* Grouping content
@@ -970,3 +971,31 @@ textarea {
 	margin-right: auto;
 	margin-bottom: 1.5em;
 }
+
+.site-header {
+	width: 100%;
+	height: 120px;
+	background-color: antiquewhite;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.site-title {
+	display: none;
+}
+
+.site-header img {
+	width: 200px;
+	height: auto;
+}
+
+.site-footer {
+	background-color: antiquewhite;
+	height: 120px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+
