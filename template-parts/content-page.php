@@ -18,7 +18,9 @@
 
 	<div class="entry-content">
 		<?php
+		// LÄSER IN ALL CONTENT FRÅN WORDPRESS
 		the_content();
+		// 
 
 		wp_link_pages(
 			array(
