@@ -986,7 +986,7 @@ textarea {
 }
 
 .site-header img {
-	width: 200px;
+	width: 300px;
 	height: auto;
 }
 
@@ -998,9 +998,9 @@ textarea {
 	justify-content: center;
 }
 
-#site-navigation {
+/* #site-navigation {
 	background-color: red;
-}
+} */
 
 #top-banner {
 	height: 60px;
@@ -1011,6 +1011,14 @@ textarea {
 	color: white;
 	font-size: .825rem;
 	font-weight: 600;
+}
+
+.main-navigation {
+	display: flex;
+}
+
+.right-nav {
+	justify-content: flex-end;
 }
 
 

@@ -12,6 +12,9 @@
 ?>
 
 	<footer id="colophon" class="site-footer">
+		<div class="footer-logo">
+		<img src="<?php echo get_template_directory_uri(); ?>/images/logotype-warbergs-tangverk.png" alt="">
+		</div>
 		<div class="site-info">
 			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'my-first-theme' ) ); ?>">
 				<?php
