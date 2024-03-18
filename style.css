@@ -78,14 +78,15 @@ html {
  * Remove the margin in all browsers.
  */
 body {
-	margin: 0;
+	margin: 10;
 }
 
 /**
  * Render the `main` element consistently in IE.
  */
 main {
-	display: block;
+	display: flex;
+	width: 1000px;
 }
 
 /**
@@ -93,9 +94,13 @@ main {
  * `article` contexts in Chrome, Firefox, and Safari.
  */
 h1 {
-	font-size: 5em;
-	margin: 0.67em 0;
-	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	font-size: 100px;
+	margin-left: 0px;
+	/* margin-top: 300px; */
+	font-family: 'Josefin Sans';
+	color: white;
+	display: block;
+	justify-self: center;
 }
 
 /* Grouping content
@@ -128,6 +133,7 @@ pre {
  */
 a {
 	background-color: transparent;
+	text-decoration: none;
 }
 
 /**
@@ -194,6 +200,8 @@ sup {
  */
 img {
 	border-style: none;
+	background-color: transparent;
+	border: solid, 2px, fuchsia;
 }
 
 /* Forms
@@ -404,7 +412,7 @@ select,
 optgroup,
 textarea {
 	color: #404040;
-	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+	font-family: 'Poppins';
 	font-size: 1rem;
 	line-height: 1.5;
 }
@@ -415,11 +423,21 @@ h3,
 h4,
 h5,
 h6 {
-	clear: both;
+	/* clear: both; */
+	font-family: 'Josefin Sans';
+	font-size: 50px;
+	margin-left: 200px;
+	align-items: center;
+	padding: 5px;
 }
 
 p {
 	margin-bottom: 1.5em;
+	font-family: 'Poppins';
+	font-size: 30px;
+	width: 750px;
+	padding: 35px;
+	text-align: center;
 }
 
 dfn,
@@ -472,8 +490,12 @@ big {
 
 /* Elements
 --------------------------------------------- */
-body {
-	background: #fff;
+body,
+main {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: transparent;
 }
 
 hr {
@@ -496,8 +518,8 @@ ol {
 	list-style: decimal;
 }
 
-li > ul,
-li > ol {
+li>ul,
+li>ol {
 	margin-bottom: 0;
 	margin-left: 1.5em;
 }
@@ -534,17 +556,19 @@ table {
 /* Links
 --------------------------------------------- */
 a {
-	color: #4169e1;
+	color: white;
+	font-family: 'Josefin Sans';
+	/* font-size: 30px; */
 }
 
-a:visited {
-	color: #800080;
-}
+/* a:visited {
+	color: grey;
+} */
 
 a:hover,
 a:focus,
 a:active {
-	color: #191970;
+	color: white;
 }
 
 a:focus {
@@ -553,7 +577,8 @@ a:focus {
 
 a:hover,
 a:active {
-	outline: 0;
+	/* outline: 0; */
+	font-weight: bold;
 }
 
 /* Forms
@@ -651,6 +676,8 @@ textarea {
 .main-navigation {
 	display: block;
 	width: 100%;
+	padding: 75px;
+	font-size: x-large;
 }
 
 .main-navigation ul {
@@ -674,28 +701,30 @@ textarea {
 	top: 0;
 }
 
-.main-navigation ul ul li:hover > ul,
-.main-navigation ul ul li.focus > ul {
+.main-navigation ul ul li:hover>ul,
+.main-navigation ul ul li.focus>ul {
 	display: block;
 	left: auto;
 }
 
 .main-navigation ul ul a {
 	width: 200px;
+
 }
 
-.main-navigation ul li:hover > ul,
-.main-navigation ul li.focus > ul {
+.main-navigation ul li:hover>ul,
+.main-navigation ul li.focus>ul {
 	left: auto;
 }
 
 .main-navigation li {
 	position: relative;
+
 }
 
 .main-navigation a {
 	display: block;
-	text-decoration: underline;
+	text-decoration: none;
 	font-size: larger;
 	padding: 20px;
 }
@@ -718,10 +747,8 @@ textarea {
 }
 
 .site-main .comment-navigation,
-.site-main
-.posts-navigation,
-.site-main
-.post-navigation {
+.site-main .posts-navigation,
+.site-main .post-navigation {
 	margin: 0 0 1.5em;
 }
 
@@ -803,7 +830,10 @@ textarea {
 
 /* Make sure logo link wraps around logo image. */
 .custom-logo-link {
-	display: inline-block;
+	/* display: inline-block; */
+	border: 2px white solid;
+	border-radius: 50px;
+	width: fit-content;
 }
 
 /* Captions
@@ -969,4 +999,55 @@ textarea {
 	margin-left: auto;
 	margin-right: auto;
 	margin-bottom: 1.5em;
+}
+
+/* .site-main {
+	background-color: #800080;
+} */
+
+.site-main2 {
+	background-image: url(https://www.google.com/search?sca_esv=dc9b52756b00f098&rlz=1C5CHFA_enSE1020SE1023&sxsrf=ACQVn09FpL0NSyfcLoF9UBWQT1MvgSrXhQ:1710600015889&q=himalaya&tbm=isch&source=lnms&prmd=ivnbz&sa=X&ved=2ahUKEwjfzrLSgfmEAxVrR1UIHRiyB4MQ0pQJegQICxAB&biw=641&bih=669&dpr=2#imgrc=pvBU311dDOailM);
+}
+
+.site-header {
+	width: fit-content;
+	height: fit-content;
+	background-color: transparent;
+	display: flex;
+	/* justify-content: center;
+	align-items: center;
+	justify-items: center; */
+}
+
+.site-title {
+	display: none;
+}
+
+/* .site-header img {
+	width: 200px;
+	height: auto;
+} */
+
+.site-footer {
+	background-color: transparent;
+	height: 120px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+
+#site-navigation {
+	background-color: transparent;
+}
+
+#top-banner {
+	height: 60px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #800080;
+	color: white;
+	font-size: .825rem;
+	font-weight: 600;
 }

@@ -15,14 +15,15 @@
 		<div class="site-info">
 			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'my-first-theme' ) ); ?>">
 				<?php
+				the_custom_logo();
 				/* translators: %s: CMS name, i.e. WordPress. */
-				printf( esc_html__( 'Proudly powered by %s', 'my-first-theme' ), 'WordPress' );
+				printf( esc_html__( 'Established 2024' ) );
 				?>
 			</a>
 			<span class="sep"> | </span>
 				<?php
 				/* translators: 1: Theme name, 2: Theme author. */
-				printf( esc_html__( 'Theme: %1$s by %2$s.', 'my-first-theme' ), 'my-first-theme', '<a href="http://underscores.me/">Underscores.me</a>. Mattias har varit innne och förstört i footern' );
+				// printf( esc_html__( 'Theme: %1$s by %2$s.', 'my-first-theme' ), 'my-first-theme', '<a href="http://underscores.me/">Underscores.me</a>. Mattias har varit innne och förstört i footern' );
 				?>
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
