@@ -531,6 +531,8 @@ img {
 
 figure {
 	margin: 1em 0;
+	width: 500px;
+
 }
 
 table {
@@ -989,7 +991,7 @@ textarea {
 	height: 120px;
 	/* background-color: antiquewhite; */
 	display: flex;
-	/* justify-content: space-between; */
+	justify-content: space-between;
 	/* align-items: center; */
 }
 
@@ -1000,7 +1002,6 @@ textarea {
 .site-header img {
 	width: 200px;
 	height: auto;
-	display: flex;
 	background-color: transparent;
 }
 
@@ -1017,12 +1018,14 @@ body {
 	display: flex;
 	align-items: center;
 	justify-content: left;
+	justify-content: space-between;
 
 }
 
-/* #site-navigation {
-	background-color: red;
-} */
+#site-navigation {
+	
+	display: flex;
+}
 
 /* 
 #top-banner {
@@ -1038,6 +1041,7 @@ body {
 
 .main-navigation {
 	display: flex;
+
 }
 
 .right-nav {
@@ -1052,4 +1056,14 @@ body {
 .footer-logo {
 	width: 100px;
 	background-color: transparent;
+}
+
+.site {
+
+	background-color: #111;
+}
+
+.site-info {
+
+	text-decoration: none;
 }

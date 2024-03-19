@@ -32,9 +32,9 @@
 		</marquee>
 	</div> -->
 	<header id="masthead" class="site-header">
-		<div class="site-branding">
-			
-		<nav id="site-navigation" class="main-navigation left-nav">
+		<div class="site-branding main-navigation" id="site-navigation" >
+		
+		<nav class="left-nav">
 			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'my-first-theme' ); ?></button>
 			<?php
 			wp_nav_menu(
@@ -59,6 +59,7 @@
 				)
 			);
 			?>
+	
 		</nav>
 		</div><!-- .site-branding -->
 	</header><!-- #masthead -->
