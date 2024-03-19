@@ -79,6 +79,7 @@ html {
  */
 body {
 	margin: 0;
+	background-color: #111;
 }
 
 /**
@@ -96,7 +97,7 @@ h1 {
 	font-size: 5em;
 	margin: 0.67em 0;
 	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-	color: blue;
+	color: white;
 }
 
 /* Grouping content
@@ -129,6 +130,7 @@ pre {
  */
 a {
 	background-color: transparent;
+	color: white;
 }
 
 /**
@@ -421,6 +423,10 @@ h6 {
 
 p {
 	margin-bottom: 1.5em;
+	width: 750px;
+	font-size: xx-large;
+	text-align: justify;
+	font-family: 'Josefin Sans';
 }
 
 dfn,
@@ -474,7 +480,7 @@ big {
 /* Elements
 --------------------------------------------- */
 body {
-	background: #fff;
+	background: black;
 }
 
 hr {
@@ -535,17 +541,20 @@ table {
 /* Links
 --------------------------------------------- */
 a {
-	color: #4169e1;
+	color: white;
+	font-size: xx-large;
+	font-family: 'Poppins';
+
 }
 
-a:visited {
+/* a:visited {
 	color: #800080;
-}
+} */
 
 a:hover,
 a:focus,
 a:active {
-	color: #191970;
+	text-decoration: underline;
 }
 
 a:focus {
@@ -555,6 +564,7 @@ a:focus {
 a:hover,
 a:active {
 	outline: 0;
+	text-decoration: underline;
 }
 
 /* Forms
@@ -650,8 +660,9 @@ textarea {
 /* Navigation
 --------------------------------------------- */
 .main-navigation {
-	display: block;
+	display: flex;
 	width: 100%;
+	font-family: 'Poppins';
 }
 
 .main-navigation ul {
@@ -695,10 +706,10 @@ textarea {
 }
 
 .main-navigation a {
-	display: block;
-	text-decoration: underline;
-	font-size: larger;
+	font-size: xx-large;
+	text-decoration: none;
 	padding: 20px;
+	font-family: 'Poppins';
 }
 
 /* Small menu. */
@@ -724,6 +735,7 @@ textarea {
 .site-main
 .post-navigation {
 	margin: 0 0 1.5em;
+	background-color: #111;
 }
 
 .comment-navigation .nav-links,
@@ -977,8 +989,8 @@ textarea {
 	height: 120px;
 	/* background-color: antiquewhite; */
 	display: flex;
-	justify-content: space-between;
-	align-items: center;
+	/* justify-content: space-between; */
+	/* align-items: center; */
 }
 
 .site-title {
@@ -986,8 +998,10 @@ textarea {
 }
 
 .site-header img {
-	width: 300px;
+	width: 200px;
 	height: auto;
+	display: flex;
+	background-color: transparent;
 }
 
 body {
@@ -1002,14 +1016,15 @@ body {
 	height: 120px;
 	display: flex;
 	align-items: center;
-	justify-content: center;
+	justify-content: left;
+
 }
 
 /* #site-navigation {
 	background-color: red;
 } */
 
-
+/* 
 #top-banner {
 	height: 60px;
 	display: flex;
@@ -1019,7 +1034,7 @@ body {
 	color: white;
 	font-size: .825rem;
 	font-weight: 600;
-}
+} */
 
 .main-navigation {
 	display: flex;
@@ -1034,3 +1049,7 @@ body {
 	margin: 0 auto;
 }
 
+.footer-logo {
+	width: 100px;
+	background-color: transparent;
+}
