@@ -1023,13 +1023,8 @@ textarea {
 	display: none;
 }
 
-<<<<<<< HEAD
-/* .site-header img {
-	width: 200px;
-=======
 .site-header img {
 	width: 300px;
->>>>>>> bcfd524379661c7fa7b3a31f86e7e2f4f364369c
 	height: auto;
 } */
 
@@ -1042,15 +1037,9 @@ textarea {
 
 }
 
-<<<<<<< HEAD
-#site-navigation {
-	background-color: transparent;
-}
-=======
 /* #site-navigation {
 	background-color: red;
 } */
->>>>>>> bcfd524379661c7fa7b3a31f86e7e2f4f364369c
 
 #top-banner {
 	height: 60px;
@@ -1061,9 +1050,6 @@ textarea {
 	color: white;
 	font-size: .825rem;
 	font-weight: 600;
-<<<<<<< HEAD
-}
-=======
 }
 
 .main-navigation {
@@ -1075,4 +1061,3 @@ textarea {
 }
 
 
->>>>>>> bcfd524379661c7fa7b3a31f86e7e2f4f364369c
