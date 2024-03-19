@@ -78,15 +78,14 @@ html {
  * Remove the margin in all browsers.
  */
 body {
-	margin: 10;
+	margin: 0;
 }
 
 /**
  * Render the `main` element consistently in IE.
  */
 main {
-	display: flex;
-	width: 1000px;
+	display: block;
 }
 
 /**
@@ -94,13 +93,10 @@ main {
  * `article` contexts in Chrome, Firefox, and Safari.
  */
 h1 {
-	font-size: 100px;
-	margin-left: 0px;
-	/* margin-top: 300px; */
-	font-family: 'Josefin Sans';
-	color: white;
-	display: block;
-	justify-self: center;
+	font-size: 5em;
+	margin: 0.67em 0;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	color: blue;
 }
 
 /* Grouping content
@@ -133,7 +129,6 @@ pre {
  */
 a {
 	background-color: transparent;
-	text-decoration: none;
 }
 
 /**
@@ -200,8 +195,6 @@ sup {
  */
 img {
 	border-style: none;
-	background-color: transparent;
-	border: solid, 2px, fuchsia;
 }
 
 /* Forms
@@ -412,7 +405,7 @@ select,
 optgroup,
 textarea {
 	color: #404040;
-	font-family: 'Poppins';
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
 	font-size: 1rem;
 	line-height: 1.5;
 }
@@ -423,21 +416,11 @@ h3,
 h4,
 h5,
 h6 {
-	/* clear: both; */
-	font-family: 'Josefin Sans';
-	font-size: 50px;
-	margin-left: 200px;
-	align-items: center;
-	padding: 5px;
+	clear: both;
 }
 
 p {
 	margin-bottom: 1.5em;
-	font-family: 'Poppins';
-	font-size: 30px;
-	width: 750px;
-	padding: 35px;
-	text-align: center;
 }
 
 dfn,
@@ -490,12 +473,8 @@ big {
 
 /* Elements
 --------------------------------------------- */
-body,
-main {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	background: transparent;
+body {
+	background: #fff;
 }
 
 hr {
@@ -518,8 +497,8 @@ ol {
 	list-style: decimal;
 }
 
-li>ul,
-li>ol {
+li > ul,
+li > ol {
 	margin-bottom: 0;
 	margin-left: 1.5em;
 }
@@ -556,19 +535,17 @@ table {
 /* Links
 --------------------------------------------- */
 a {
-	color: white;
-	font-family: 'Josefin Sans';
-	/* font-size: 30px; */
+	color: #4169e1;
 }
 
-/* a:visited {
-	color: grey;
-} */
+a:visited {
+	color: #800080;
+}
 
 a:hover,
 a:focus,
 a:active {
-	color: white;
+	color: #191970;
 }
 
 a:focus {
@@ -577,8 +554,7 @@ a:focus {
 
 a:hover,
 a:active {
-	/* outline: 0; */
-	font-weight: bold;
+	outline: 0;
 }
 
 /* Forms
@@ -676,8 +652,6 @@ textarea {
 .main-navigation {
 	display: block;
 	width: 100%;
-	padding: 75px;
-	font-size: x-large;
 }
 
 .main-navigation ul {
@@ -701,30 +675,28 @@ textarea {
 	top: 0;
 }
 
-.main-navigation ul ul li:hover>ul,
-.main-navigation ul ul li.focus>ul {
+.main-navigation ul ul li:hover > ul,
+.main-navigation ul ul li.focus > ul {
 	display: block;
 	left: auto;
 }
 
 .main-navigation ul ul a {
 	width: 200px;
-
 }
 
-.main-navigation ul li:hover>ul,
-.main-navigation ul li.focus>ul {
+.main-navigation ul li:hover > ul,
+.main-navigation ul li.focus > ul {
 	left: auto;
 }
 
 .main-navigation li {
 	position: relative;
-
 }
 
 .main-navigation a {
 	display: block;
-	text-decoration: none;
+	text-decoration: underline;
 	font-size: larger;
 	padding: 20px;
 }
@@ -747,8 +719,10 @@ textarea {
 }
 
 .site-main .comment-navigation,
-.site-main .posts-navigation,
-.site-main .post-navigation {
+.site-main
+.posts-navigation,
+.site-main
+.post-navigation {
 	margin: 0 0 1.5em;
 }
 
@@ -830,10 +804,7 @@ textarea {
 
 /* Make sure logo link wraps around logo image. */
 .custom-logo-link {
-	/* display: inline-block; */
-	border: 2px white solid;
-	border-radius: 50px;
-	width: fit-content;
+	display: inline-block;
 }
 
 /* Captions
@@ -1001,22 +972,13 @@ textarea {
 	margin-bottom: 1.5em;
 }
 
-/* .site-main {
-	background-color: #800080;
-} */
-
-.site-main2 {
-	background-image: url(https://www.google.com/search?sca_esv=dc9b52756b00f098&rlz=1C5CHFA_enSE1020SE1023&sxsrf=ACQVn09FpL0NSyfcLoF9UBWQT1MvgSrXhQ:1710600015889&q=himalaya&tbm=isch&source=lnms&prmd=ivnbz&sa=X&ved=2ahUKEwjfzrLSgfmEAxVrR1UIHRiyB4MQ0pQJegQICxAB&biw=641&bih=669&dpr=2#imgrc=pvBU311dDOailM);
-}
-
 .site-header {
-	width: fit-content;
-	height: fit-content;
-	background-color: transparent;
+	width: 100%;
+	height: 120px;
+	/* background-color: antiquewhite; */
 	display: flex;
-	/* justify-content: center;
+	justify-content: space-between;
 	align-items: center;
-	justify-items: center; */
 }
 
 .site-title {
@@ -1026,20 +988,27 @@ textarea {
 .site-header img {
 	width: 300px;
 	height: auto;
-} */
+}
+
+body {
+	position: static;
+	background-position: center center !important;
+	background-size: cover !important;
+	background-repeat: no-repeat !important;
+}
 
 .site-footer {
-	background-color: transparent;
+	/* background-color: antiquewhite; */
 	height: 120px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
-
 }
 
 /* #site-navigation {
 	background-color: red;
 } */
+>>>>>>> bcfd524379661c7fa7b3a31f86e7e2f4f364369c
 
 #top-banner {
 	height: 60px;
@@ -1060,4 +1029,9 @@ textarea {
 	justify-content: flex-end;
 }
 
+.container {
+	max-width: 1140px;
+	margin: 0 auto;
+}
 
+>>>>>>> bcfd524379661c7fa7b3a31f86e7e2f4f364369c

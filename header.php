@@ -20,17 +20,17 @@
 	<?php wp_head(); ?>
 </head>
 
-<body <?php body_class(); ?>>
+<body <?php body_class(); ?> style="background: url('<?php echo get_the_post_thumbnail_url(); ?>')">
 <?php wp_body_open(); ?>
 
 <div id="page" class="site">
 	<a class="skip-link screen-reader-text" href="#primary"><?php esc_html_e( 'Skip to content', 'my-first-theme' ); ?></a>
 <!-- MATTIAS -->
-<div id="top-banner">
+<!-- <div id="top-banner">
 		<marquee>
 		Fraktfritt för kofeinbereonde - vid köp av 5 st produkter
 		</marquee>
-	</div>
+	</div> -->
 	<header id="masthead" class="site-header">
 		<div class="site-branding">
 			
