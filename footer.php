@@ -11,28 +11,34 @@
 
 ?>
 
-	<footer id="colophon" class="site-footer">
-		<div class="footer-logo">
+<footer id="colophon" class="site-footer">
+	<div class="footer-logo">
 		<img src="<?php echo get_template_directory_uri(); ?>/images/loga2.png" alt="">
-		</div>
-		<div class="site-info">
+	</div>
 
-				<?php
+	<div class="site-info">
+
+		<?php
+		/* translators: %s: CMS name, i.e. WordPress. */
+		printf(esc_html__('Established 2024'));
+		?>
 		
-				/* translators: %s: CMS name, i.e. WordPress. */
-				printf( esc_html__( 'Established 2024' ) );
-				?>
-			</a>
-			<span class="sep"> | </span>
-				<?php
-				/* translators: 1: Theme name, 2: Theme author. */
-				// printf( esc_html__( 'Theme: %1$s by %2$s.', 'my-first-theme' ), 'my-first-theme', '<a href="http://underscores.me/">Underscores.me</a>. Mattias har varit innne och förstört i footern' );
-				?>
-		</div><!-- .site-info -->
-	</footer><!-- #colophon -->
+		<div class="social">
+		<img src="<?php echo get_template_directory_uri(); ?>/images/facebook.png" alt="">
+		<img src="<?php echo get_template_directory_uri(); ?>/images/instagram.png" alt="">
+	</div>
+		</a>
+		<span class="sep"> </span>
+		<?php
+		/* translators: 1: Theme name, 2: Theme author. */
+		// printf( esc_html__( 'Theme: %1$s by %2$s.', 'my-first-theme' ), 'my-first-theme', '<a href="http://underscores.me/">Underscores.me</a>. Mattias har varit innne och förstört i footern' );
+		?>
+	</div><!-- .site-info -->
+</footer><!-- #colophon -->
 </div><!-- #page -->
 
 <?php wp_footer(); ?>
 
 </body>
+
 </html>
