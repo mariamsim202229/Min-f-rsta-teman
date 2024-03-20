@@ -1030,22 +1030,6 @@ body {
 	padding: 100px;
 }
 
-/* #site-navigation {
-	
-	display: flex;
-} */
-
-/* 
-#top-banner {
-	height: 60px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	background-color: #800080;
-	color: white;
-	font-size: .825rem;
-	font-weight: 600;
-} */
 
 .main-navigation {
 	display: flex;
@@ -1064,7 +1048,7 @@ body {
 .container {
 	max-width: 1140px;
 	margin: 0 auto;
-	display: flex;
+
 	
 }
 
@@ -1095,7 +1079,7 @@ img.attachment-woocommerce_thumbnail.size {
 }
 
 .entry-content {
-	display: flex;
+
 	padding: 30px;
 	height: max-content;
 }
