@@ -197,9 +197,7 @@ sup {
  */
 img {
 	/* border-style: none; */
-	display: flex;
-
-	
+	flex: 1;
 }
 
 /* Forms
@@ -581,13 +579,13 @@ button,
 input[type="button"],
 input[type="reset"],
 input[type="submit"] {
-	border: 1px solid;
-	border-color: #ccc #ccc #bbb;
+	border: 1px solid white;
 	border-radius: 3px;
-	background: #e6e6e6;
-	color: rgba(0, 0, 0, 0.8);
+	background: transparent;
+	color: white;
 	line-height: 1;
 	padding: 0.6em 1em 0.4em;
+	width: 550px;
 }
 
 button:hover,
@@ -628,6 +626,7 @@ textarea {
 	border: none;
     border-bottom: 1px solid white;
 	padding: 5px;
+	width: 550px;
 }
 
 input[type="text"]:focus,
@@ -650,7 +649,7 @@ textarea:focus {
 }
 
 select {
-	border: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
 }
 
 textarea {
@@ -1059,7 +1058,7 @@ body {
 	max-width: 1140px;
 	margin: 0 auto;
 	display: flex;
-	border: 2px solid fuchsia;
+	
 }
 
 .footer-logo {
@@ -1086,4 +1085,22 @@ img.attachment-woocommerce_thumbnail.size {
 .social {
 	display: flex;
 	justify-content: flex-end;
+}
+
+.entry-content {
+	display: flex;
+}
+.wpcf7-form {
+flex: 1;
+align-content: center;
+padding: 10px;
+width: 600px;
+height: 458px ;
+
+}
+
+.wp-block-image {
+	flex: 1;
+	height: 658px ;
+	
 }
