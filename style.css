@@ -1002,7 +1002,7 @@ textarea {
 	display: flex;
 	justify-content: space-between;
 	padding: 30px;
-	/* align-items: center; */
+	align-items: center;
 }
 
 .site-title {
@@ -1012,7 +1012,7 @@ textarea {
 .site-header img {
 	width: 200px;
 	height: auto;
-	background-color: transparent;
+
 }
 
 body {
@@ -1024,19 +1024,16 @@ body {
 
 .site-footer {
 	/* background-color: antiquewhite; */
-	height: 100px;
+	height: 120px;
 	display: flex;
 	align-items: center;
 	padding: 100px;
-
-
-
 }
 
-#site-navigation {
+/* #site-navigation {
 	
 	display: flex;
-}
+} */
 
 /* 
 #top-banner {
@@ -1057,6 +1054,11 @@ body {
 
 .right-nav {
 	justify-content: flex-end;
+	margin-right: 100px;
+}
+.left-nav {
+	margin-left: 100px;
+
 }
 
 .container {
