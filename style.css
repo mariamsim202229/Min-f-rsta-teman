@@ -96,7 +96,8 @@ main {
 h1 {
 	font-size: 2em;
 	margin: 0.67em 0;
-	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	/* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+	font-family: 'Poppins', sans-serif;
 	color: white;
 }
 
@@ -410,11 +411,9 @@ input,
 select,
 optgroup,
 textarea {
-	color: #404040;
-	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+	color: white;
+	/* font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif; */
 	font-size: 2rem;
-	
-	
 }
 
 h1,
@@ -428,10 +427,10 @@ h6 {
 
 p {
 	margin-bottom: 1.5em;
-	width: 750px;
-	font-size: xx-large;
+	/* width: 750px; */
+	font-size: 1.5rem;
 	text-align: justify;
-	font-family: 'Josefin Sans';
+	font-family: 'Josefin Sans', sans-serif;
 }
 
 dfn,
@@ -485,7 +484,7 @@ big {
 /* Elements
 --------------------------------------------- */
 body {
-	background: black;
+	background-color: #111;
 }
 
 hr {
@@ -672,7 +671,7 @@ textarea {
 .main-navigation {
 	display: flex;
 	width: 100%;
-	font-family: 'Poppins';
+	font-family: "Josefin Sans", sans-serif;
 }
 
 .main-navigation ul {
@@ -716,10 +715,12 @@ textarea {
 }
 
 .main-navigation a {
-	font-size: xx-large;
+	font-size: 1rem;
+	font-weight: 500;
+	font-family: "Josefin Sans", sans-serif;
+	text-transform: uppercase;
 	text-decoration: none;
 	padding: 20px;
-	font-family: 'Poppins';
 }
 
 /* Small menu. */
@@ -745,7 +746,7 @@ textarea {
 .site-main
 .post-navigation {
 	margin: 0 0 1.5em;
-	background-color: #111;
+	/* background-color: #111; */
 	display: flex;
 }
 
@@ -786,7 +787,7 @@ textarea {
 .page-content,
 .entry-content,
 .entry-summary {
-	margin: 1.5em 0 0;
+	/* margin: 1.5em 0 0; */
 }
 
 .page-links {
@@ -1024,48 +1025,62 @@ body {
 
 .site-footer {
 	/* background-color: antiquewhite; */
-	height: 120px;
+	/* height: 120px; */
 	display: flex;
 	align-items: center;
 	padding: 100px;
+	border: 1px solid red;
+	justify-content: space-between;
 }
 
 
 .main-navigation {
 	display: flex;
+	align-items: center;
 
 }
 
 .right-nav {
 	justify-content: flex-end;
-	margin-right: 100px;
+	/* margin-right: 100px; */
 }
 .left-nav {
-	margin-left: 100px;
+	/* margin-left: 100px; */
 
 }
 
 .container {
-	max-width: 1140px;
+	max-width: 1240px;
 	margin: 0 auto;
+	border: 1px solid yellow;
+	padding: 0 1rem;
 
 	
 }
 
 .footer-logo {
-	width: 200px;
+	display: flex;
+	align-items: center;
+	color: white;
+	font-family: 'Poppins', sans-serif;
+	font-size: 1rem;
+	font-weight: 500;
+	letter-spacing: .5px;
+}
+
+.footer-logo img {
+	width: 140px;
 	background-color: transparent;
-	padding: 30px;
 }
 
 .site {
-	background-color: #111;
+	/* background-color: #111; */
 }
 
 .site-info {
 	text-decoration: none;
 	color: white;
-	font-family: 'Poppins';
+	font-family: 'Poppins', sans-serif;
 	font-size: larger;
 }
 
@@ -1101,4 +1116,16 @@ height: 458px ;
 .site-branding {
     width: 100%;
     display: flex;
+}
+
+/* Entry Header */
+
+.entry-header {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.entry-header h1 {
+	margin: 2rem 0 0;
 }

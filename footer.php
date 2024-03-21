@@ -1,4 +1,5 @@
 <?php
+
 /**
  * The template for displaying the footer
  *
@@ -11,32 +12,25 @@
 
 ?>
 
-<footer id="colophon" class="site-footer">
+<footer id="colophon" class="site-footer container">
 	<div class="footer-logo">
 		<img src="<?php echo get_template_directory_uri(); ?>/images/loga2.png" alt="">
-	</div>
-
-	<div class="site-info">
-
 		<?php
 		/* translators: %s: CMS name, i.e. WordPress. */
 		printf(esc_html__('Established 2024'));
 		?>
-		
-		<div class="social">
-		<img src="<?php echo get_template_directory_uri(); ?>/images/facebook.png" alt="">
-		<img src="<?php echo get_template_directory_uri(); ?>/images/instagram.png" alt="">
 	</div>
-		</a>
-		<span class="sep"> </span>
-		<?php
-		/* translators: 1: Theme name, 2: Theme author. */
-		// printf( esc_html__( 'Theme: %1$s by %2$s.', 'my-first-theme' ), 'my-first-theme', '<a href="http://underscores.me/">Underscores.me</a>. Mattias har varit innne och förstört i footern' );
-		?>
+
+	<div class="site-info">
+		<ion-icon name="logo-facebook"></ion-icon>
+		<ion-icon name="logo-instagram"></ion-icon>
 	</div><!-- .site-info -->
 </footer><!-- #colophon -->
 </div><!-- #page -->
 
+<!-- ION ICONS -->
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 <?php wp_footer(); ?>
 
 </body>
