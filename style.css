@@ -429,11 +429,11 @@ h6 {
 
 p {
 	margin-bottom: 1.5em;
-	width: 1000px;
+	width: 900px;
 	font-size: 1.5rem;
 	text-align: justify;
 	font-family: 'Poppins';
-	margin-left: 50px;
+	margin-left: 80px;
 
 }
 
@@ -735,7 +735,7 @@ textarea {
 	display: block;
 }
 
-@media screen and (min-width: 37.5em) {
+/* @media screen and (min-width: 37.5em) {
 
 	.menu-toggle {
 		display: none;
@@ -744,6 +744,35 @@ textarea {
 	.main-navigation ul {
 		display: flex;
 	}
+} */
+/* Media query for screens larger than 768px */
+@media screen and (min-width: 768px) {
+    .menu-toggle {
+        display: none; /* Hide the menu toggle button */
+    }
+ 
+    .main-navigation ul {
+        display: flex; /* Display the navigation menu items as a flexbox */
+    }
+}
+ 
+/* Media query for screens smaller than or equal to 768px (including phones) */
+@media screen and (max-width: 768px) {
+    .menu-toggle {
+        display: none; /* Hide the menu toggle button */
+    }
+ 
+    .main-navigation ul {
+        display: block; /* Display the navigation menu items as a block */
+    }
+    p{
+        font-size:1rem;
+        text-align: center;
+		margin-left: 0;
+		width: fit-content;
+		padding: 2px;
+    }
+   
 }
 
 .site-main .comment-navigation,
