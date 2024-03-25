@@ -433,6 +433,8 @@ p {
 	font-size: 1.5rem;
 	text-align: justify;
 	font-family: 'Poppins';
+	margin-left: 50px;
+
 }
 
 dfn,
@@ -1008,6 +1010,12 @@ textarea {
 	justify-content: space-between;
 	padding: 30px;
 	align-items: center;
+	/* background: rgba(255, 255, 255, 0.14); */
+	border-radius: 16px;
+	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+	backdrop-filter: blur(8px);
+	-webkit-backdrop-filter: blur(3px);
+	/* border: 1px solid rgba(255, 255, 255, 0.3); */
 }
 
 .site-title {
@@ -1017,7 +1025,6 @@ textarea {
 .site-header img {
 	width: 200px;
 	height: auto;
-
 }
 
 body {
@@ -1028,9 +1035,9 @@ body {
 }
 
 .site-footer {
-	position: sticky;
+	/* position: sticky;
 	bottom: 0;
-	z-index: 1;
+	z-index: 1; */
 	display: flex;
 	align-items: center;
 	padding: 100px;
@@ -1041,7 +1048,6 @@ body {
 .main-navigation {
 	display: flex;
 	align-items: center;
-
 }
 
 .right-nav {
@@ -1049,9 +1055,6 @@ body {
 	/* margin-right: 100px; */
 }
 
-.left-nav {
-	/* margin-left: 100px; */
-}
 
 .container {
 	max-width: 1240px;
@@ -1059,6 +1062,7 @@ body {
 	margin: 0 auto;
 	/* border: 1px solid yellow; */
 	padding: 0 1rem;
+	/* display: flex; */
 }
 
 .footer-logo {
@@ -1135,4 +1139,8 @@ img.attachment-woocommerce_thumbnail.size {
 .entry-header h1 {
 	margin: 2rem 0 0;
 
+}
+
+::placeholder {
+	font-size: 18px;
 }
