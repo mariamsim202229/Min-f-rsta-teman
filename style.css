@@ -445,7 +445,11 @@ i {
 }
 
 blockquote {
-	margin: 0 1.5em;
+	/* margin: 0 1.5em; */
+	margin: 0;
+	border-left: 4px solid white;
+	padding-left: 2rem;
+
 }
 
 address {
@@ -1173,3 +1177,28 @@ img.attachment-woocommerce_thumbnail.size {
 ::placeholder {
 	font-size: 18px;
 }
+
+/* WOOCOMMERCE - PRODUCTS */
+.wp-block-woocommerce-single-product h2.wp-block-post-title{
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 36px;
+	letter-spacing: 0;
+	font-weight: normal;
+	margin-bottom: 16px;
+
+}
+
+.wp-block-woocommerce-single-product .wp-block-post-excerpt__excerpt {
+	font-weight: 300;
+	font-size: 14px;
+	font-family: 'Poppins', sans-serif;
+} 
+
+.wp-block-woocommerce-single-product .woocommerce-Price-amount {
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 32px;
+	letter-spacing: 0;
+	font-weight: normal;
+	margin-bottom: 16px;
+}
+
