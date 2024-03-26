@@ -771,6 +771,10 @@ textarea {
 		/* Display the navigation menu items as a block */
 	}
 
+	blockquote {
+		border-left: none;
+		padding-left: 0;
+	}
 	p {
 		font-size: 1rem;
 		text-align: center;
