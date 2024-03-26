@@ -541,6 +541,7 @@ img {
 figure {
 	margin: 1em 0;
 	width: 500px;
+	height: fit-content;
 }
 
 table {
@@ -775,6 +776,10 @@ textarea {
 		border-left: none;
 		padding-left: 0;
 	}
+
+	h1{
+        font-size: 1rem;
+    }
 	p {
 		font-size: 1rem;
 		text-align: center;
