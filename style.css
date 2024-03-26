@@ -1197,3 +1197,8 @@ img.attachment-woocommerce_thumbnail.size {
   font-weight: normal;
   margin-bottom: 16px;
 }
+
+.single_add_to_cart_button .add_to_cart_button .button {
+	width: 50px;
+	background-color: #21759b;
+}
