@@ -777,9 +777,10 @@ textarea {
 		padding-left: 0;
 	}
 
-	h1{
-        font-size: 1rem;
-    }
+	h1 {
+		font-size: 1rem;
+	}
+
 	p {
 		font-size: 1rem;
 		text-align: center;
@@ -1155,18 +1156,6 @@ img.attachment-woocommerce_thumbnail.size {
 	height: 458px;
 }
 
-.wp-block-image {
-	height: 500px;
-}
-
-/* .img {
-	height: 600px;
-} */
-
-.wp-block-image {
-	flex: 1;
-	height: 658px;
-}
 
 .site-branding {
 	width: 100%;
@@ -1221,7 +1210,9 @@ img.attachment-woocommerce_thumbnail.size {
 	margin-bottom: 16px;
 }
 
-.single_add_to_cart_button.button.alt .add_to_cart_button .button {
-	width: 50px;
-	background-color: #21759b;
+.woocommerce div.product form.cart .button,
+.single_add_to_cart_button.button.alt,
+.add_to_cart_button .button {
+	width: auto;
+	border: 1px solid white;
 }
