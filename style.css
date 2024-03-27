@@ -1222,7 +1222,7 @@ img.attachment-woocommerce_thumbnail.size {
 }
 
 .wp-block-woocommerce-cart-order-summary-subtotal-block {
-	display: none;
+	/* display: none; */
 }
 
 .wc-block-cart-item__remove-link {
