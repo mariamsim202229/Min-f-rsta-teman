@@ -588,7 +588,7 @@ input[type="submit"] {
 	line-height: 1;
 	padding: 0.6em 1em 0.4em;
 	width: 450px;
-	
+
 }
 
 button:hover,
@@ -1231,7 +1231,31 @@ img.attachment-woocommerce_thumbnail.size {
 	border: solid 1px white;
 }
 
-.wc-block-formatted-money-amount, .wc-block-components-formatted-money-amount,  .wc-block-components-product-price__value {
+.wc-block-components-product-price__value {
 
 	display: none;
+}
+
+
+/* CART */
+
+.wp-block-woocommerce-filled-cart-block .wc-block-components-product-name {
+	font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.wc-block-cart-item__prices {
+	font-family: 'Poppins';
+    font-size: 18px;
+}
+
+.wp-block-woocommerce-cart-line-items-block {
+	max-width: 100%;
+    font-size: 16px;
+    font-family: 'Poppins';
+}
+
+.wc-block-cart__sidebar.wp-block-woocommerce-cart-totals-block {
+	font-size: 14px;
+    font-family: 'Poppins';
 }
