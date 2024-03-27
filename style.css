@@ -1220,3 +1220,18 @@ img.attachment-woocommerce_thumbnail.size {
 .wc-block-components-product-metadata__description {
 	display: none;
 }
+
+.wp-block-woocommerce-cart-order-summary-subtotal-block {
+	display: none;
+}
+
+.wc-block-cart-item__remove-link {
+
+	text-decoration: none;
+	border: solid 1px white;
+}
+
+.wc-block-formatted-money-amount, .wc-block-components-formatted-money-amount,  .wc-block-components-product-price__value {
+
+	display: none;
+}
