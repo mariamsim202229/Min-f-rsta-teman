@@ -428,11 +428,9 @@ h6 {
 
 p {
 	margin-bottom: 1.5em;
-	/* width: 900px; */
 	font-size: 1.5rem;
-	text-align: justify;
-	font-family: "Poppins";
-	/* margin-left: 80px; */
+	text-align: center;
+	font-family: "Poppins", sans-serif;
 }
 
 dfn,
@@ -584,12 +582,13 @@ input[type="button"],
 input[type="reset"],
 input[type="submit"] {
 	border: 1px solid white;
-	border-radius: 3px;
+	border-radius: 30px;
 	background: transparent;
 	color: white;
 	line-height: 1;
 	padding: 0.6em 1em 0.4em;
 	width: 450px;
+	
 }
 
 button:hover,
