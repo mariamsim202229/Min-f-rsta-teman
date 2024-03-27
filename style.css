@@ -1083,9 +1083,6 @@ body {
 }
 
 .site-footer {
-	/* position: sticky;
-	bottom: 0;
-	z-index: 1; */
 	display: flex;
 	align-items: center;
 	padding: 100px;
@@ -1214,4 +1211,12 @@ img.attachment-woocommerce_thumbnail.size {
 .add_to_cart_button .button {
 	width: auto;
 	border: 1px solid white;
+}
+
+.input-text.qty.text {
+	display: none;
+}
+
+.wc-block-components-product-metadata__description {
+	display: none;
 }
